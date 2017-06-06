@@ -42,7 +42,7 @@ open class RIGSingleImageViewController: UIViewController {
         view.clipsToBounds = true
         view.addSubview(scrollView)
         let indicatorView = UIActivityIndicatorView()
-        indicatorView.activityIndicatorViewStyle = .gray
+        indicatorView.activityIndicatorViewStyle = .white
         indicatorView.hidesWhenStopped = true
         self.activityIndicator = indicatorView
         configureConstraints()
