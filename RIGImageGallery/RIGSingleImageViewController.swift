@@ -63,6 +63,7 @@ open class RIGSingleImageViewController: UIViewController {
 private extension RIGSingleImageViewController {
 
     func viewerItemUpdated() {
+        print("viewerItemUpdated")
         if viewerItem?.isLoading == true && activityIndicator?.isAnimating == false {
             activityIndicator?.startAnimating()
         }
@@ -78,6 +79,7 @@ private extension RIGSingleImageViewController {
     }
 
     func configureConstraints() {
+        print("configureConstraint")
         scrollView.translatesAutoresizingMaskIntoConstraints = false
         activityIndicator?.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
