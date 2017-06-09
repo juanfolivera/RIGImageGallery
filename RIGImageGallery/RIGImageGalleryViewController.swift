@@ -168,7 +168,8 @@ open class RIGImageGalleryViewController: UIPageViewController {
     }
 
     open override var prefersStatusBarHidden: Bool {
-        return navigationBarsHidden
+        print("HOLAAAAAAAAA")
+        return false
     }
 
     open override func viewWillLayoutSubviews() {
