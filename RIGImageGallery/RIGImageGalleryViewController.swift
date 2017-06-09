@@ -301,7 +301,7 @@ private extension RIGImageGalleryViewController {
     func updateBarStatus(animated: Bool) {
         navigationController?.setToolbarHidden(navigationBarsHidden, animated: animated)
         navigationController?.setNavigationBarHidden(navigationBarsHidden, animated: animated)
-        setNeedsStatusBarAppearanceUpdate()
+        //setNeedsStatusBarAppearanceUpdate()
         //UIView.animate(withDuration: 0.2, animations: {
           //  self.currentImageViewController?.scrollView.baseInsets = self.scrollViewInset
         //})
