@@ -215,8 +215,8 @@ extension RIGImageGalleryViewController: UIGestureRecognizerDelegate {
 extension RIGImageGalleryViewController {
 
     func toggleBarVisiblity(_ recognizer: UITapGestureRecognizer) {
-        navigationBarsHidden = !navigationBarsHidden
-        updateBarStatus(animated: true)
+        //navigationBarsHidden = !navigationBarsHidden
+        //updateBarStatus(animated: true)
     }
 
     func toggleZoom(_ recognizer: UITapGestureRecognizer) {
