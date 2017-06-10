@@ -80,13 +80,13 @@ private extension RIGSingleImageViewController {
 
     func configureConstraints() {
         print("configureConstraint")
-        scrollView.translatesAutoresizingMaskIntoConstraints = false
+        /*scrollView.translatesAutoresizingMaskIntoConstraints = false
         activityIndicator?.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             scrollView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             scrollView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             scrollView.topAnchor.constraint(equalTo: view.topAnchor),
             scrollView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
-            ])
+            ])*/
     }
 }
